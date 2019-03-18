@@ -176,16 +176,30 @@
                 </div>
               </div>
 
-              <a href="#openModal">Open Modal</a>
-              <div id="openModal" class="modalDialog">
-              <a href="#close" title="Close" class="close">X</a>
-                <iframe width="671" height="400" src="https://www.youtube.com/embed/YtlKyv2pc_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-            
-            </div>
 
+<div class="container">  
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Ver Demostración
+  </button>
 
-
+  <!-- The Modal -->
+  <div class="modal-body">
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">     
+        
+        <!-- Modal body -->
+        
+          <iframe width="771" height="400" src="https://www.youtube.com/embed/YtlKyv2pc_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>        
+        <!-- Modal footer -->
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
         </div>
       </main>
 
