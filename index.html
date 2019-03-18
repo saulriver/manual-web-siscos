@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="#">
+    <link rel="icon" href="imagenes/logosiscos.ico">
 
-    <title>Home</title>
+    <title>Siscos</title>
 
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,56 +19,126 @@
     <link href="css/estilos.css" rel="stylesheet">
 
   </head>
-  <body>
+  <body class="imagen">
 
      <div class="container">
 
       <header class="masthead">
 
         <nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" 
+          data-target="#navbarCollapse" aria-controls="navbarCollapse" 
+          aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav text-md-center nav-justified w-100">
-              <li class="nav-item">
-                <a href="#">
-                  <img src="#">
-                </a>
-              </li>
+              
               <li class="nav-item active">
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="noticias.html">Noticias</a>
-              </li>
+
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nosotros</a>
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" 
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                  <a class="dropdown-item" href=".html">El Equipo</a>
-                  <a class="dropdown-item" href="nosotros.html">Misión</a>
-                  <a class="dropdown-item" href="nosotros.html">Visión</a>                  
+                  <a class="dropdown-item" href="registrarse.html">Registrarse</a>                 
                 </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" target="_blank">Videos</a>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Opciones</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="opciones.html">Cerrar Sessión Actual</a>
+                  <a class="dropdown-item" href=".html">Cambio De Contraseña</a>
+                  <a class="dropdown-item" href=".html">Salir</a>                  
+                </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" 
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" width: 200px;>Configuración</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="configuracion.html">General</a> 
+                  <a class="dropdown-item" href="configuracion.html">Gestión De Ordenes</a>
+                  <a class="dropdown-item" href="configuracion.html">Inventario</a>                
+                </div>
               </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" 
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Inventario</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="inventario.html">Inventario</a>
+                  <a class="dropdown-item" href=".html">Utilidades</a>
+                  <a class="dropdown-item" href=".html">Registro</a>
+                  <a class="dropdown-item" href="configuracion.html">Entradas Almacen</a>
+                  <a class="dropdown-item" href="configuracion.html">Pedidos Material</a>
+                  <a class="dropdown-item" href="configuracion.html">Salidas Almacen</a>
+                  <a class="dropdown-item" href="configuracion.html">Traslados</a>
+                  <a class="dropdown-item" href="configuracion.html">Consultas</a>
+                  <a class="dropdown-item" href="configuracion.html">Reportes</a>                  
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" 
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Personal</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="personal.html">Utilidades</a>
+                  <a class="dropdown-item" href=".html">Personal</a>
+                  <a class="dropdown-item" href=".html">Cargos</a>
+                  <a class="dropdown-item" href="configuracion.html">Tipo De Cuadrillas</a>
+                  <a class="dropdown-item" href="configuracion.html">Configuración Cuadrillas</a>
+                  <a class="dropdown-item" href="configuracion.html">Registro  Supervisores</a>
+                  <a class="dropdown-item" href="configuracion.html">Asignación Técnicos</a>                  
+                </div>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" 
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Utilidades</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="utilidades.html">Importar Archivos</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" 
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ods</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="ods.html">ODS VPI</a>
+                  <a class="dropdown-item" href=".html">ODS SOL TEC</a>
+                  <a class="dropdown-item" href=".html">ODS OT</a>
+                  <a class="dropdown-item" href="configuracion.html">Utilidades</a>
+                  <a class="dropdown-item" href="configuracion.html">Estadistica</a>                  
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" 
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admon</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="admon.html">Perfiles</a>
+                  <a class="dropdown-item" href=".html">Usuarios</a>
+                  <a class="dropdown-item" href=".html">Datos Empresa</a>
+                  <a class="dropdown-item" href="configuracion.html">Opciones Correo y Web</a>
+                  <a class="dropdown-item" href="configuracion.html">Ejecutar Prog</a>
+                  <a class="dropdown-item" href="configuracion.html">Aplicar Consumos</a>
+                  <a class="dropdown-item" href="configuracion.html">Utilidades SQL</a>                  
+                </div>
+              </li>                    
+
               
             </ul>
           </div>
         </nav>
+        
       </header>
-
-      <main role="main">
+        
+        <main role="main">
 
         <!-- Carrusel -->
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -76,73 +146,23 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="first-slide" src="#" alt="First slide">
+              <img class="first-slide" src="imagenes/proxy.jpeg" alt="First slide">
               <div class="container">
                 <div class="carousel-caption text-left">
-                  <h1 class="tcs">Crea tu primer Hola Mundo en React JS</h1>
-                  <p class="tcs">Vamos a mostrar un Hola Mundo como inicio a tus primeros pasos con React JS, logrando esto podrás poco a poco ir creando aplicaciones más complejas, las lineas de código que hagas las podras reutilizar cada ves que...</p>
-                  <p><a class="btn btn-lg btn-primary" href="#" target="_blank" role="button">Leer más</a></p>
+                  <h1 class="tcs">MANUAL SISCOS</h1>
+                  <p class="tcs">El presente manual tiene como objetivo guiar al usuario a utilizar el Sistema de información para el control de inventarios y gestión de órdenes de servicios obteniendo la información sistematizada deseada por el usuario y poder despejar todas las dudas existentes.</p>
+                  
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <img class="second-slide" src="#" alt="Second slide">
-              <div class="container">
-                <div class="carousel-caption">
-                  <h1 class="tcs">En multiples ocaciones hemos recalcado que parte del desarrollo ágil es usar paquetes o librerias...</p>
-                  <p class="tcs">5 Paquetes para desplegar un Sistema de Pagos en Django</p>
-                  <a class="btn btn-lg btn-primary" href="#" target="_blank" role="button">Leer más</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="third-slide" src="#" alt="Third slide">
-              <div class="container">
-                <div class="carousel-caption text-right">
-                  <h1 class="tcs">Crear una Notificación GDPR con Angular 6 + Cookie y Bootstrap 4</h1>
-                  <p class="tcs">Hace poco salio el Reglamento de Protección de Datos, el cual obliga a...</p>
-                  <p><a class="btn btn-lg btn-primary" href="#" target="_blank" role="button">Leer más</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
-          </a>
-          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Siguiente</span>
-          </a>
-        </div>
-
-        <!-- Columnas -->
-        <div class="row">
-          <div class="col-lg-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-primary" href="#" target="_blank" role="button">Ver detalles &raquo;</a></p>
-          </div>
-          <div class="col-lg-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-primary" href="#" target="_blank" role="button">Ver detalles &raquo;</a></p>
-          </div>
-          <div class="col-lg-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-            <p><a class="btn btn-primary" href="#" target="_blank" role="button">Ver detalles &raquo;</a></p>
-          </div>
-        </div>      
-
       </main>
 
        <!-- FOOTER -->
+
       <footer class="container mt-5">
           <p class="float-right"><a href="#">Subir</a></p>
-          <p>&copy; <script>document.write(new Date().getFullYear())</script> Manual Web Siscos &middot; Desarrollado por <a href="#" target="_blank">soluciones integrales ARE</a> </p>
+          <p>&copy; <script>document.write(new Date().getFullYear())</script> Manual Web Siscos &middot; Desarrollado por <a href="http://www.are-soluciones.com/" target="_blank">soluciones integrales ARE</a> </p>
       </footer>
-
 
     <!-- JavaScript Colocado al final del documento para que las páginas se carguen más rápido -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

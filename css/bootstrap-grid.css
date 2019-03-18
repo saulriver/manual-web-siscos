@@ -16,9 +16,10 @@ html {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 35px;
+  padding-left: 35px;
   width: 100%;
+  
 }
 
 @media (min-width: 576px) {
@@ -49,8 +50,8 @@ html {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
   width: 100%;
 }
 
