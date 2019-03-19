@@ -19,8 +19,12 @@
     <link href="css/estilos.css" rel="stylesheet">
 
   </head>
-  <body class="imagen">
-
+  <body>
+ <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">MANUAL SISCOS / <b>HOME</b></li>
+      </ol>
+    </nav>
      <div class="container-fluid">
 
       <header class="masthead">
@@ -36,6 +40,10 @@
               
               <li class="nav-item active">
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="glosario.html">Glosario</a>
               </li>
 
               <li class="nav-item dropdown">
@@ -58,11 +66,13 @@
 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown01" 
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" width: 200px;>Configuración</a>
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Configura</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                   <a class="dropdown-item" href="general.html">General</a> 
                   <a class="dropdown-item" href="gestion_ordenes.html">Gestión Ordenes</a>
                   <a class="dropdown-item" href="inventario.html">Inventario</a>                
+                  <a class="dropdown-item" href="configuracion.html">Gestión De Ordenes</a>
+                  <a class="dropdown-item" href="configuracion.html">Inventario</a>                
                 </div>
               </li>
 
@@ -137,23 +147,31 @@
         <main role="main">
 
         <!-- Carrusel -->
+      
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img class="first-slide" src="imagenes/proxy.jpeg" alt="First slide">
               <div class="container">
-                <div class="carousel-caption text-left">
-                  <h1 class="tcs">MANUAL SISCOS</h1>
-                  <p class="tcs">El presente manual tiene como objetivo guiar al usuario a utilizar el Sistema de información para el control de inventarios y gestión de órdenes de servicios obteniendo la información sistematizada deseada por el usuario y poder despejar todas las dudas existentes.</p>
-                  
-                </div>
+
+                <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark binptpgwb" style="background-image: url('#');">
+        <div class="col-md-6 px-4">
+          <h1 class="display-4 font-italic tcs">MANUAL SISCOS</h1>
+          <p class="tcs">El presente manual tiene como objetivo guiar al usuario a utilizar el Sistema de información para el control de inventarios y gestión de órdenes de servicios obteniendo la información sistematizada deseada por el usuario y poder despejar todas las dudas existentes.</p>
+                    <p class="tcs">Comprendiendo lo siguiente:</p>
+                    <p class="tcs">• Guía para acceder al sistema de información SISCOS.</p>
+                    <p class="tcs">• Conocer cómo utilizar el sistema de información SISCOS, mediantes una descripción detallada e ilustrada de las opciones.</p>
+                    <p class="tcs">• Conocer el alcance de toda la información por medio de la explicación. </p>
+        </div>
+      </div> 
               </div>
             </div>
+          </div>
+        </div>
+      
+
       </main>
 
        <!-- FOOTER -->
